@@ -1,0 +1,34 @@
+{
+  "clientKey": "",
+  "href": "",
+  "ref": "bfdc3842-0dc6-45e0-9b62-92d3e5770334",
+  "name": "PostmanEcho",
+  "description": "Connection description",
+  "revision": 1,
+  "archived": false,
+  "auth": { "authType": "NONE" },
+  "request": {
+    "requestType": "POST",
+    "connectionUrl": "https://postman-echo.com/post",
+    "requestBody": "{}"
+  },
+  "inputMappings": [],
+  "outputMappings": [
+    { "label": "Args", "outputReference": "args", "type": "Object" },
+    { "label": "Data", "outputReference": "data", "type": "Object" },
+    { "label": "Files", "outputReference": "files", "type": "Object" },
+    { "label": "Form", "outputReference": "form", "type": "Object" },
+    { "label": "Headers", "outputReference": "headers", "type": "Object" },
+    { "label": "Url", "outputReference": "url", "type": "String" }
+  ],
+  "customHeaders": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Accept-Encoding", "value": "gzip" },
+    { "name": "Content-Type", "value": "application/json" }
+  ],
+  "urlParameters": [],
+  "systemType": "DESTINATION",
+  "connectionTimeout": 5000,
+  "socketTimeout": 5000,
+  "icon": "fad fa-envelope-open"
+}

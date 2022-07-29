@@ -1,0 +1,16 @@
+{
+  "name": "CDP-Personalize-CI-CD",
+  "version": "1.0.0",
+  "description": "The purpose of this repository is to showcase how you can setup the process of storing Sitecore CDP + Personalize templates, connections and other development resources in Source control for a proper development life cycle with the CDP/Personalize products.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dyy0373@dev.azure.com/dyy0373/CDP-Personalize-CI-CD/_git/CDP-Personalize-CI-CD"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
