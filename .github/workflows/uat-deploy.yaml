@@ -25,6 +25,7 @@ jobs:
       - name: Install and Run tests
         run: npm i && npm run test
   deploy:
+    needs: build
     environment: 'UAT'
     runs-on: ubuntu-latest
     steps:
