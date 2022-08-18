@@ -1,0 +1,28 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy to CDP/Personalize UAT
+
+# Controls when the workflow will run
+on:
+  push:
+    branches:
+      - main
+      - releases/*
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3.4.1
+        with:
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install and Build
+        run: npm i && npm run build
+      - name: Deploy CDP/Personalize
+        run: cdp-personalize-cli deploy
