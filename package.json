@@ -4,7 +4,7 @@
   "description": "The purpose of this repository is to showcase how you can setup the process of storing Sitecore CDP + Personalize templates, connections and other development resources in Source control for a proper development life cycle with the CDP/Personalize products.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -12,5 +12,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "supertest": "6.2.4",
+    "mocha": "10.0.0",
+    "chai": "4.3.6",
+    "sitecore-cdp-personalize-cli": "0.1.1"
+  }
 }

@@ -1,19 +1,15 @@
 {
-    "clientKey": "",
-    "href": "",
-    "ref": "bf65e938-27b1-45b6-9b12-2f904c3c23c9",
-    "name": "getTriggerEvent",
-    "revision": 3,
-    "archived": false,
-    "friendlyId": "gettriggerevent",
-    "type": "DECISION",
-    "status": "DRAFT",
-    "icon": "",
-    "additionalFields": {
-        "decisionOutputReference": "getnumberofevents",
-        "decisionReturnType": "String"
-    },
-    "defaultTemplate": false,
-    "tags": [],
-    "customTemplate": true
+  "name": "getTriggerEvents",
+  "archived": false,
+  "friendlyId": "gettriggerevent_l4oyrahze3",
+  "type": "DECISION",
+  "status": "PUBLISHED",
+  "icon": "",
+  "additionalFields": {
+    "decisionOutputReference": "getnumberofevents",
+    "decisionReturnType": "String"
+  },
+  "defaultTemplate": false,
+  "tags": ["Source Control"],
+  "customTemplate": true
 }

@@ -1,0 +1,1 @@
+describe('getTriggerOrder', function () {});
