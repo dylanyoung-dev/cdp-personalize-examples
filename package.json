@@ -1,5 +1,5 @@
 {
-  "name": "CDP-Personalize-CI-CD",
+  "name": "cdp-personalize-examples",
   "version": "1.0.0",
   "description": "The purpose of this repository is to showcase how you can setup the process of storing Sitecore CDP + Personalize templates, connections and other development resources in Source control for a proper development life cycle with the CDP/Personalize products.",
   "main": "index.js",
