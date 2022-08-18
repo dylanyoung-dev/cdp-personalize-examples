@@ -11,9 +11,9 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
-
+    environment: 'UAT'
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout
@@ -24,12 +24,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install and Run tests
         run: npm i && npm run test
-  deploy:
-    needs: build
-    environment: 'UAT'
-    runs-on: ubuntu-latest
-    steps:
       - name: Authenticate to CDP/Personalize
-        run: npx sitecore-cdp-personalize-cli auth login -u '${{ secrets.CLIENTID }}' -p '${{ secrets.CLIENTSECRET }}' -l 'EU'
+        run: npx sitecore-cdp-personalize-cli auth login -id '${{ secrets.CLIENTID }}' -s '${{ secrets.CLIENTSECRET }}' -l 'EU'
       - name: Deploy CDP/Personalize
         run: npx sitecore-cdp-personalize-cli deploy
