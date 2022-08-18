@@ -12,6 +12,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
+    environment: 'UAT'
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -24,5 +25,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install and Build
         run: npm i && npm run build
+      - name: Authenticate to CDP/Personalize
+        run: cdp-personalize-cli auth login -u '${{ secrets.CLIENTID }}' -p '${{ secrets.CLIENTSECRET }}' -l 'EU'
       - name: Deploy CDP/Personalize
         run: cdp-personalize-cli deploy
