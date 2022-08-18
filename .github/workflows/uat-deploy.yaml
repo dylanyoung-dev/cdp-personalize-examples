@@ -30,6 +30,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Authenticate to CDP/Personalize
-        run: npx cdp-personalize-cli auth login -u '${{ secrets.CLIENTID }}' -p '${{ secrets.CLIENTSECRET }}' -l 'EU'
+        run: npx sitecore-cdp-personalize-cli auth login -u '${{ secrets.CLIENTID }}' -p '${{ secrets.CLIENTSECRET }}' -l 'EU'
       - name: Deploy CDP/Personalize
-        run: npx cdp-personalize-cli deploy
+        run: npx sitecore-cdp-personalize-cli deploy
