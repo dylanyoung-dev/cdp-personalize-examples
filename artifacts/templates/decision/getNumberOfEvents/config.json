@@ -10,6 +10,6 @@
     "decisionReturnType": "String"
   },
   "defaultTemplate": false,
-  "tags": ["Source Control", "Live Demo"],
+  "tags": ["Source Control"],
   "customTemplate": true
 }
