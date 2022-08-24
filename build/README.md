@@ -1,1 +1,0 @@
-This folder isn't required in the future if a CLI is provided to facilitate the API tasks, but for now will contain likely Powershell Scripts to help facilitate moving artifacts to CDP/Personalize via API.
