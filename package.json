@@ -6,10 +6,6 @@
   "scripts": {
     "test": "mocha --reporter spec"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://dyy0373@dev.azure.com/dyy0373/CDP-Personalize-CI-CD/_git/CDP-Personalize-CI-CD"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -18,6 +14,6 @@
     "supertest": "6.2.4",
     "mocha": "10.0.0",
     "chai": "4.3.6",
-    "sitecore-cdp-personalize-cli": "0.1.1"
+    "sitecore-cdp-serializer": "0.1.2"
   }
 }
