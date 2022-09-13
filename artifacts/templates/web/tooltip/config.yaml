@@ -1,0 +1,11 @@
+name: tooltip
+archived: false
+friendlyId: tooltip_Tcdqy3Ov6W
+type: WEB
+status: PUBLISHED
+icon: 'icon-web-Analytics'
+defaultTemplate: false
+render: true
+tags:
+  - Source Control
+customTemplate: true

@@ -1,0 +1,11 @@
+name: inactiveTab
+archived: false
+friendlyId: inactiveTab_wd6TZ0j5jy
+type: WEB
+status: PUBLISHED
+icon: 'icon-web-Analytics'
+render: true
+defaultTemplate: false
+tags:
+  - Source Control
+customTemplate: true
