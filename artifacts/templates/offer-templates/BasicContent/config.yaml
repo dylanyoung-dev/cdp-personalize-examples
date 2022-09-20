@@ -1,0 +1,22 @@
+name: Basic Content
+description: 'A basic example for the examples repository'
+status: active
+attributes:
+  - name: 'Title'
+    type: String
+  - name: 'Publish Date'
+    type: Date
+  - name: 'Line Count'
+    type: Number
+  - name: 'Description'
+    type: String
+contexts:
+  - order
+  - guest
+  - page
+  - session
+  - product
+  - segment
+tags:
+  - 'Source Controlled'
+archived: false
