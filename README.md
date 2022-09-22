@@ -16,10 +16,10 @@ This repository although it has many examples for CI/CD, unit testing and automa
 
 This repository provides an example of how a repository could be setup to create a reusable library for your customers or all customers depending on the scenario. All of this is possible with the Serializer tool with Sitecore CDP/Personalize available on NPM: (https://www.npmjs.com/package/sitecore-cdp-serializer)[https://www.npmjs.com/package/sitecore-cdp-serializer]. This is currently a pre-release open source package.
 
-![Reusability with Sitecore CDP Serializer](.\docs\images\Reusability-Example.jpg)
+![Reusability with Sitecore CDP Serializer](docs/images/Reusability-Example.jpg)
 
 ## Typical Customer Scenario
 
 Most Sitecore CDP/Personalize customers are provided a two tenant setup depending on the license for CDP, Personalize or both CDP/Personalize (Smart Hub CDP solution). This repository could be used for creating a CI/CD process with the DevOps tool of choice to deploy these changes to your CDP/Personalize tenant.
 
-![Common Customer Scenario with CI/CD](.\docs\images\Using-Source-Control.jpg)
+![Common Customer Scenario with CI/CD](docs/images/Using-Source-Control.jpg)
