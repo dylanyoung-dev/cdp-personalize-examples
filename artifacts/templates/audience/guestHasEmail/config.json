@@ -1,0 +1,11 @@
+{
+  "name": "Guest Has Email",
+  "archived": false,
+  "friendlyId": "guest_has_email_5159fa66ef",
+  "type": "AUDIENCE",
+  "status": "DRAFT",
+  "icon": "",
+  "defaultTemplate": false,
+  "tags": ["Source Control"],
+  "customTemplate": true
+}
