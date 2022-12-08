@@ -1,0 +1,11 @@
+name: 'Common Library'
+description: 'A collection of common functions and utilities.'
+archived: false
+friendlyId: 'common_library_0f111c'
+type: JS_MODULE
+status: PUBLISHED
+icon: 'icon-web-Analytics'
+defaultTemplate: false
+tags:
+  - Source Control
+customTemplate: true
