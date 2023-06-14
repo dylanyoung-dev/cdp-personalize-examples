@@ -25,6 +25,6 @@ jobs:
       - name: Install and Run tests
         run: npm i && npm run test
       - name: Authenticate to CDP/Personalize
-        run: npx sitecore-cdp-serializer auth login -id '${{ secrets.CLIENTID }}' -s '${{ secrets.CLIENTSECRET }}' -l 'US' -c
+        run: npx sitecore-cdp-serializer@0.2.1 auth login -id '${{ secrets.CLIENTID }}' -s '${{ secrets.CLIENTSECRET }}' -l 'US' -c
       - name: Deploy CDP/Personalize
         run: npx sitecore-cdp-serializer deploy
