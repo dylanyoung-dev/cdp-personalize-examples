@@ -1,0 +1,10 @@
+name: guestDataExtensionLookup
+archived: false
+friendlyId: 'guestdataextensionlookup_0f111c'
+type: JS_MODULE
+status: PUBLISHED
+icon: 'icon-web-Analytics'
+defaultTemplate: false
+tags:
+  - Source Control
+customTemplate: true
