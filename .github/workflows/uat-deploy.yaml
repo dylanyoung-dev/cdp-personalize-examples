@@ -27,4 +27,4 @@ jobs:
       - name: Authenticate to CDP/Personalize
         run: npx sitecore-cdp-serializer@0.2.1 auth login -id '${{ secrets.CLIENTID }}' -s '${{ secrets.CLIENTSECRET }}' -l 'US' -c
       - name: Deploy CDP/Personalize
-        run: npx sitecore-cdp-serializer deploy
+        run: npx sitecore-cdp-serializer@0.2.1 deploy
