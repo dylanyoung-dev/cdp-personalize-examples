@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha --reporter spec"
   },
+  "engines": {
+    "node": ">=16.17",
+    "npm": ">=8.15.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
